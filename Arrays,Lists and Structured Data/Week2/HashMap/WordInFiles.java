@@ -75,7 +75,7 @@ public class WordInFiles {
         // this.printMap();
         int max = this.maxNumber();
         System.out.println("The maximum number of files any word is in: " + max);
-        ArrayList<String> words = this.wordsInNumFiles(4);
+        ArrayList<String> words = this.wordsInNumFiles(7);
         for(String word : words){
             this.printFilesIn(word);
         }

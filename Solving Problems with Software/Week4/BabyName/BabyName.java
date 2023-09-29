@@ -45,9 +45,9 @@ public class BabyName {
     }
 
     public void testGetRank() {
-        int year = 1960;
-        String name = "Emily";
-        String gender = "F";
+        int year = 1971;
+        String name = "Frank";
+        String gender = "M";
         int rank = this.getRank(year, name, gender);
         System.out.println("Rank for " + name + ", " + gender + " is " + rank +  " in " + year);
     }

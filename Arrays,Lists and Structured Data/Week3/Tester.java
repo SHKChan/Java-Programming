@@ -33,8 +33,8 @@ public class Tester
         la.readFile(fName);
         // la.printAll();
         // la.countUniqueIPs();
-        // la.uniqueIPVisitsOnDay("Sep 24");
-        // la.countUniqueIPsInRange(400,499);
+        la.uniqueIPVisitsOnDay("Sep 27");
+        // la.countUniqueIPsInRange(200,299);
         // la.printAllHigherThanNum(400);
         // String someday = "Mar 24";
         // la.uniqueIPVisitsOnDay(someday);
@@ -43,7 +43,7 @@ public class Tester
         // la.iPsMostVisits(la.countVisitsPerIP());
         // la.iPsForDays();
         // la.dayWithMostIPVisits(la.iPsForDays());
-        la.iPsWithMostVisitsOnDay(la.iPsForDays(), "Sep. 29");
+        // la.iPsWithMostVisitsOnDay(la.iPsForDays(), "Sep. 30");
 
     }
 }

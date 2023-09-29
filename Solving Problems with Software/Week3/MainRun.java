@@ -1,6 +1,10 @@
 public class MainRun{
     public static void main(String[] args){
         MainRun.clearScreen();
+        
+        // ExportDataParser scp = new ExportDataParser();
+        // scp.tester();
+
         WeatherDataParser scp = new WeatherDataParser();
         scp.testFileWithColdestTemperature();
     }

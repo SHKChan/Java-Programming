@@ -28,7 +28,8 @@ public class ImprovedGladLib {
 		for (String label : labels) {
 			this.labelsTagMap.put(label, readIt(source + "/" + label + ".txt"));
 		}
-		usedMap = new HashMap<String, ArrayList<String>>();
+		
+		this.usedMap = new HashMap<String, ArrayList<String>>();
 	}
 
 	private String randomFrom(ArrayList<String> source) {

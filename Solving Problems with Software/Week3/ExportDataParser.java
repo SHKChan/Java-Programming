@@ -49,9 +49,9 @@ public class ExportDataParser {
         // pr = fr.getCSVParser();
         // System.out.println(this.GetCountryInfo(pr, "Nauru"));
         
-        // System.out.println("__________Testing on listExportersTwoProducts__________");
-        // pr = fr.getCSVParser();
-        // this.listExportersTwoProducts(pr, "cotton", "flowers");
+        System.out.println("__________Testing on listExportersTwoProducts__________");
+        pr = fr.getCSVParser();
+        this.listExportersTwoProducts(pr, "cotton", "flowers");
         
         // System.out.println("__________Testing on numberofExporters__________");
         // pr = fr.getCSVParser();

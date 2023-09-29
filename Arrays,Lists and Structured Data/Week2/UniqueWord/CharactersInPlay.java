@@ -55,6 +55,6 @@ public class CharactersInPlay {
 
     public void test() {
         this.findAllCharacters();
-        this.charactersWithNumParts(50,10000);
+        this.charactersWithNumParts(10,15);
     }
 }

@@ -158,7 +158,8 @@ public class WeatherDataParser {
     }
 
     public void testAverageTemperatureInFile() {
-        FileResource fr = new FileResource("./nc_weather/2013/weather-2013-08-10.csv");
+        // FileResource fr = new FileResource("./nc_weather/2013/weather-2013-08-10.csv");
+        FileResource fr = new FileResource();
         double averageTemp = this.averageTemperatureInFile(fr.getCSVParser());
         System.out.printf(
                 "Average temperature in file is %f%n", averageTemp);

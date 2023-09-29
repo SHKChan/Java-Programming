@@ -76,13 +76,13 @@ public class Part3 {
         for (String gene : sr.data()) {
             if (gene.length() > 60) {
                 greaterThan9++;
-                System.out.println("Found gene: " + gene + "longer than 60 characters");
-                System.out.println("------------------------------");
+                // System.out.println("Found gene: " + gene + "longer than 60 characters");
+                // System.out.println("------------------------------");
             }
             if (cgRatio(gene) > 0.35) {
                 cgRation++;
-                System.out.println("Found gene: " + gene + "CG ratio > 0.35");
-                System.out.println("------------------------------");
+                // System.out.println("Found gene: " + gene + "CG ratio > 0.35");
+                // System.out.println("------------------------------");
             }
             if (gene.length() > longestLength) {
                 longestLength = gene.length();
@@ -95,9 +95,9 @@ public class Part3 {
     }
 
     public void testProcessGenes() {
-        FileResource fr = new FileResource("./dna/url.fa");
+        FileResource fr = new FileResource("./dna/brca1line.fa");
         String dna = fr.asString();
         processGenes(getAllGenes(dna));
-        System.out.println("Codon CTG appears in dna: \"" + dna + "\" " + countCTG(dna) + " times");
+        // System.out.println("Codon CTG appears in dna: \"" + dna + "\" " + countCTG(dna) + " times");
     }
 }

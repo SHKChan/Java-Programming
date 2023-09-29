@@ -54,7 +54,7 @@ public class QuakeSortInPlace {
             in.set(i, qmin);
             in.set(maxIdx, qi);
             pass++;
-            if(70 == pass){
+            if(50 == pass){
                 break;
             }
         }
@@ -104,7 +104,7 @@ public class QuakeSortInPlace {
     public void testSort() {
         EarthQuakeParser parser = new EarthQuakeParser();
 
-        String source = "data/earthQuakeDataWeekDec6sample2.atom";
+        String source = "data/earthQuakeDataWeekDec6sample1.atom";
         // String source = "data/nov20quakedata.atom";
         ArrayList<QuakeEntry> list = parser.read(source);
 

@@ -11,7 +11,7 @@ import java.util.*;
 public class DifferentSorters {
     public void sortWithCompareTo() {
         EarthQuakeParser parser = new EarthQuakeParser();
-        String source = "data/earthQuakeDataWeekDec6sample2.atom";
+        String source = "data/earthQuakeDataWeekDec6sample1.atom";
         //String source = "http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom";
         ArrayList<QuakeEntry> list  = parser.read(source);
         Collections.sort(list);

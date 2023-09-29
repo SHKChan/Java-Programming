@@ -1,6 +1,10 @@
 public class MainRun {
     public static void main(String[] args) {
         MainRun.clearScreen();
+
+        // WordFrequencies p = new WordFrequencies();
+        // p.test();
+
         CharactersInPlay p = new CharactersInPlay();
         p.test();
     }

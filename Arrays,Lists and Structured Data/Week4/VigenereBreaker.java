@@ -160,7 +160,7 @@ public class VigenereBreaker {
         System.out.println("Coresponding key is: " + Arrays.toString(keys));
         System.out.println("Valid words count is: " + wordsCount);
         String decrypted = new VigenereCipher(keys).decrypt(encrypted);
-        // System.out.println("The decrypted message is: \n" + decrypted);
+        System.out.println("The decrypted message is: \n" + decrypted);
         return decrypted;
     }
 }

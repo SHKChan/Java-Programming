@@ -2,7 +2,7 @@ public class MainRun{
     public static void main(String[] args){
         MainRun.clearScreen();
         BabyName p = new BabyName();
-        p.testTotalNames();
+        p.testWhatIsNameOfRank();
     }
 
     public static void clearScreen() {
