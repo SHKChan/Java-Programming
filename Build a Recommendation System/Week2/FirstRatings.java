@@ -3,7 +3,7 @@ import java.util.HashMap;
 import org.apache.commons.csv.CSVRecord;
 import edu.duke.FileResource;
 
-public class FirstRating {
+public class FirstRatings {
     /*
      * Process every record from the CSV file, a file of movie information, and
      * return an ArrayList of type Movie.
